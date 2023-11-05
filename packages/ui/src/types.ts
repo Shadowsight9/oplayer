@@ -183,6 +183,15 @@ export type UiConfig = {
     previous?: string
   }
 
+  rightController?: {
+    items: {
+      name: string
+      iconSvg: string
+      defaultText: string 
+    }[]
+    onClick: (name: string) => any
+  }
+
   /*  --- WIP ---  */
 
   contextmenu?: []

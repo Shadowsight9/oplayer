@@ -156,13 +156,7 @@ class UI implements UIInterface {
   }
 
   destroy() {}
-
-  /**
-   * @deprecated use changHighlightSource
-   */
-  highlight(highlights: Highlight[]) {
-    return this.changHighlightSource(highlights)
-  }
+  
 }
 
 export default function create(config?: UiConfig) {

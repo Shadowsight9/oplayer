@@ -4,6 +4,7 @@ import type { UIInterface } from '../types'
 import { addClass, debounce, hasClass, removeClass } from '../utils'
 import renderControllerBar from './ControllerBar'
 import renderControllerBottom from './ControllerBottom'
+import renderContrillerRight from './ControllerRight'
 
 const CTRL_HIDE_DELAY = 2000
 
@@ -14,6 +15,7 @@ const render = (it: UIInterface) => {
 
   renderControllerBar(it, $controller)
   renderControllerBottom(it, $controller)
+  renderContrillerRight(it, $controller)
 
   if (config.showControls == 'played') {
     addClass($controller, hidden)

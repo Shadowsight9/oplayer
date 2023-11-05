@@ -102,27 +102,14 @@ export const tooltip = isMobile
   ? ''
   : $.css({
       position: 'relative',
-
       '&:hover': {
         '&::after': {
           opacity: 1,
           transform: 'translateX(-50%) scale(1)'
         },
-
-        '&:not([data-tooltip-pos]):last-child::after': {
-          right: 0,
-          left: 'auto',
-          transform: 'translateY(0) scale(1)'
-        },
-
         '&[data-tooltip-pos=down]::after': {
           transform: 'translateX(-50%) scale(1)'
         },
-
-        '&[data-tooltip-pos=down]:last-child::after': {
-          right: 0,
-          transform: 'translateY(0) scale(1)'
-        }
       },
 
       '&::after': {
@@ -149,21 +136,4 @@ export const tooltip = isMobile
         'margin-top': '0.5em',
         transform: 'translate(-50%, -10px) scale(.8)'
       },
-
-      '&[data-tooltip-pos=down]:last-child::after': {
-        right: 0,
-        top: '100%',
-        bottom: 'unset',
-        left: 'auto',
-        'margin-top': '0.5em',
-        transform: 'translateY(-10px) scale(.8)',
-        'transform-origin': '100% 0'
-      },
-
-      '&:not([data-tooltip-pos]):last-child::after': {
-        right: 0,
-        left: 'auto',
-        transform: 'translateY(10px) scale(.8)',
-        'transform-origin': '100% 100%'
-      }
     })

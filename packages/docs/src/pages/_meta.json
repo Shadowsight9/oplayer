@@ -5,7 +5,7 @@
     "type": "separator",
     "title": "Plugins"
   },
-  "ui": "@oplayer/ui",
+  "ui": "oplayer-ui-plus",
   "danmaku": "@oplayer/danmaku",
   "react": "@oplayer/react",
   "plugins": "@oplayer/plugins",

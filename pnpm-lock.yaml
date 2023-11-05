@@ -137,7 +137,7 @@ importers:
       '@oplayer/torrent':
         specifier: workspace:*
         version: link:../torrent
-      '@oplayer/ui':
+      'oplayer-ui-plus':
         specifier: workspace:*
         version: link:../ui
       mdx-embed:
@@ -192,7 +192,7 @@ importers:
       '@oplayer/core':
         specifier: workspace:*
         version: link:../core
-      '@oplayer/ui':
+      'oplayer-ui-plus':
         specifier: workspace:*
         version: link:../ui
       '@types/chromecast-caf-sender':

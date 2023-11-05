@@ -1,5 +1,5 @@
 {
-  "name": "@oplayer/ui",
+  "name": "oplayer-ui-plus",
   "version": "1.2.34",
   "description": "ui plugin for oplayer",
   "type": "module",

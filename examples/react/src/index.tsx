@@ -2,7 +2,7 @@ import { createRoot } from 'react-dom/client'
 import React from 'react'
 import Player from '@oplayer/react'
 import hls from '@oplayer/hls'
-import ui from '@oplayer/ui'
+import ui from 'oplayer-ui-plus'
 import { vttThumbnails } from '@oplayer/plugins'
 
 const ui2 = ui({

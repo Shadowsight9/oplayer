@@ -1,5 +1,5 @@
 import type { Player, Source, PlayerPlugin, PartialRequired } from '@oplayer/core'
-import type { Highlight, SubtitleSource, Thumbnails, UIInterface } from '@oplayer/ui'
+import type { Highlight, SubtitleSource, Thumbnails, UIInterface } from 'oplayer-ui-plus'
 
 import './playlist.css'
 

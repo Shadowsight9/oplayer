@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Player, { PlayerPlugin } from '@oplayer/core'
-import ui from '@oplayer/ui'
+import ui from 'oplayer-ui-plus'
 import hls from '@oplayer/hls'
 import dash from '@oplayer/dash'
 import mpegts from '@oplayer/mpegts'

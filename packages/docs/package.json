@@ -17,7 +17,7 @@
     "@oplayer/plugins": "workspace:*",
     "@oplayer/react": "workspace:*",
     "@oplayer/torrent": "workspace:*",
-    "@oplayer/ui": "workspace:*",
+    "oplayer-ui-plus": "workspace:*",
     "mdx-embed": "^1.1.2",
     "next": "^13.4.19",
     "nextra": "^2.11.1",

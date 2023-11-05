@@ -5,7 +5,7 @@
 <script setup lang="ts">
 import OPlayer, { PlayerOptions } from '@oplayer/core'
 import dash from '@oplayer/dash'
-import ui from '@oplayer/ui'
+import ui from 'oplayer-ui-plus'
 import { onBeforeUnmount, onMounted } from 'vue'
 
 const player = ref<OPlayer>()

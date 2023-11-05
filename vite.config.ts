@@ -7,7 +7,7 @@ import { getBabelOutputPlugin } from '@rollup/plugin-babel'
 
 export const globals = {
   '@oplayer/core': 'OPlayer',
-  '@oplayer/ui': 'OUI',
+  'oplayer-ui-plus': 'OUI',
   '@oplayer/hls': 'OHls',
   '@oplayer/mpegts': 'OMpegts',
   '@oplayer/torrent': 'OTorrent',

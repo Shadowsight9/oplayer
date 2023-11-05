@@ -7,12 +7,12 @@ import { Callout, Tab, Tabs } from 'nextra-theme-docs'
 <Tabs items={['npm', 'script']}>
   <Tab>
 ```shell
-npm i @oplayer/core @oplayer/ui
+npm i @oplayer/core oplayer-ui-plus
 ```
 
 ```js filename="app.js"
 import Player from '@oplayer/core'
-import ui from '@oplayer/ui'
+import ui from 'oplayer-ui-plus'
 
 Player.make('#oplayer', {
   source: {
@@ -44,4 +44,4 @@ Player.make('#oplayer', {
 </Tab>
 </Tabs>
 
-<Callout>`@Oplayer/ui provides a basic set of skin styles.</Callout>
+<Callout>`oplayer-ui-plus provides a basic set of skin styles.</Callout>

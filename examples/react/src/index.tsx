@@ -5,6 +5,9 @@ import hls from '@oplayer/hls'
 import ui from 'oplayer-ui-plus'
 import { vttThumbnails } from '@oplayer/plugins'
 
+
+
+
 const ui2 = ui({
   rightController: {
     items: [
@@ -17,7 +20,14 @@ const ui2 = ui({
     onClick: (name: string) => {
       console.log(name)
     }
+  },
+  title: {
+    userName: 'Oplayer',
+    time:"dsadasdsa",
+    description: 'Oplayer is a video player based on hls.js and react',
+    
   }
+
 })
 
 const App: React.FC = () => {

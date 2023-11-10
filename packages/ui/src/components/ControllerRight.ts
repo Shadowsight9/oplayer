@@ -24,7 +24,7 @@ export const controllerBottomWrap = $.css({
     'z-index': -1,
     'transition': 'opacity 0.3s ease',
     'pointer-events': 'none',
-    'background-image': 'linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3))'
+    'background-image': 'linear-gradient(to right, transparent, rgba(0, 0, 0, .3))'
   },
 
   [`@global .${controllerHidden} &`]: {

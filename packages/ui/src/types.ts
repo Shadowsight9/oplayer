@@ -192,6 +192,17 @@ export type UiConfig = {
     onClick: (name: string) => any
   }
 
+  title?: {
+    userName?: string
+    userUrl?: string
+    time?: string
+    description?: string
+    tags?: {
+      name: string
+      url: string
+    }[]
+  }
+
   /*  --- WIP ---  */
 
   contextmenu?: []

@@ -4,6 +4,7 @@ import { controllerHidden, icon, off, on, tooltip } from '../style'
 import { formatTime, screenShot } from '../utils'
 import renderVolumeBar from './VolumeBar'
 import renderProgress from './Progress'
+import renderTitle from './Title'
 import { isFullscreen, isWebFullscreen } from '../listeners/fullscreen'
 
 import type { UIInterface } from '../types'
@@ -40,7 +41,7 @@ export const controllerBottomWrap = $.css({
   [`@global .${controllerHidden} &`]: {
     padding: 0,
     'pointer-events': 'none',
-    transform: 'translateY(calc(100% - 8px))',
+    transform: 'translateY(100%)',
     '&::before': { opacity: 0 }
   }
 })
@@ -49,6 +50,7 @@ const render = (it: UIInterface, $el: HTMLDivElement) => {
   const { player, config } = it
 
   const el = $.render($.create(`div.${controllerBottomWrap}`), $el)
+  el.classList.add('swiper-no-swiping')
 
   if (!config.miniProgressBar) {
     $.css({
@@ -58,6 +60,7 @@ const render = (it: UIInterface, $el: HTMLDivElement) => {
     })
   }
 
+  renderTitle(it, el)
   renderProgress(it, el)
 
   const [playLabel, pauseLabel, screenshotLabel, pipLabel, fullscreenLabel, previousLabel, nextLabel] = [

@@ -3,7 +3,7 @@ import { icon } from '../style'
 
 
 export const statisticIcon = $.css({
-  display: 'flex',
+  'display': 'flex',
   'flex-direction': 'column',
   'justify-content': 'center',
   'align-items': 'center',
@@ -13,10 +13,9 @@ export const statisticIcon = $.css({
 })
 
 export const controllers = $.css({
-  color: '#fff',
-  fill: '#fff',
-  height: '100%',
-  
+  'color': '#fff',
+  'fill': '#fff',
+  'height': '100%',
   'display': 'flex',
   'box-sizing': 'border-box',
   'flex-direction': 'column',
@@ -28,8 +27,8 @@ export const controllers = $.css({
 
   [`& .${icon}`]: Object.assign(
     {
-      'width': '3em',
-      'height': '3em',
+      'width': '4em',
+      'height': '4em',
       'justify-content': 'center',
       'align-items': 'center',
       'display': 'inline-flex',

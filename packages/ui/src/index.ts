@@ -37,7 +37,7 @@ const defaultConfig: UiConfig = {
   settings: ['loop'],
   theme: { primaryColor: '#6668ab' },
   speeds: ['2.0', '1.5', '1.25', '1.0', '0.75', '0.5'],
-  ctrlHideBehavior: 'hover'
+  ctrlHideBehavior: 'hover',
 }
 
 class UI implements UIInterface {
